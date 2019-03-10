@@ -11,8 +11,10 @@ namespace GTK_Button_bug
         {
             InitializeComponent();
 
-            var navPage = new NavigationPage(new MainPage());
-            NavigationPage.SetHasNavigationBar(navPage, false);
+            var mainPage = new MainPage();
+            NavigationPage.SetHasNavigationBar(mainPage, false);
+
+            var navPage = new NavigationPage(mainPage);
             MainPage = navPage;
         }
 
