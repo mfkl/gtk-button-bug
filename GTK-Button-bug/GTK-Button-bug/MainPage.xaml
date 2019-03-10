@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:GTK_Button_bug"
              x:Class="GTK_Button_bug.MainPage">
 
-    <StackLayout x:Name="mainLayout"
+    <!--<StackLayout x:Name="mainLayout"
                  VerticalOptions="Center"
                  Padding="20,20,20,20">
         <Label Text="Welcome" x:Name="welcomeLabel"
@@ -18,8 +18,8 @@
         <Entry x:Name="dobEntry" IsPassword="false"
                Placeholder="Date of birth (dd/MM/yyyy)"/>
         <Entry x:Name="emailEntry" IsPassword="false"
-               Placeholder="E-mail address" />
+               Placeholder="E-mail address" />-->
         <Button x:Name="nextButton" Clicked="nextButton_Clicked"
                 Text="Next" HorizontalOptions="Center" />
-    </StackLayout>
+    <!--</StackLayout>-->
 </ContentPage>

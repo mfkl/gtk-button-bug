@@ -16,7 +16,7 @@ namespace GTK_Button_bug
 
         private void nextButton_Clicked(object sender, EventArgs e)
         {
-
+            throw new Exception("fire");
         }
     }
 }
